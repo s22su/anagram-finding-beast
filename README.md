@@ -4,11 +4,12 @@ Anagram finding beast! Just give it a file & word and it will eat it
 and spit out all the anagrams it finds for a given word.
 
 **NB!** Dictionary file should be saved using UTF-8 encoding. `test_data/lemmad.txt` is converted to UTF-8.
-[Original file](http://www.eki.ee/tarkvara/wordlist/lemmad.zip) had in Windows-1252 encoding.
+[Original file](http://www.eki.ee/tarkvara/wordlist/lemmad.zip) had Windows-1252 encoding.
 
 ## Usage
 
 `./bin/find_anagrams_mac --dict ./test_data/lemmad.txt --word "kala"`
+
 `./bin/find_anagrams_linux_amd64 --dict ./test_data/lemmad.txt --word "kala"`
 
 **PS!** `./bin/find_anagrams_mac --dict ./test_data/lemmad.txt --word "mõõk"` works on Mac.
